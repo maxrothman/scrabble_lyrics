@@ -33,9 +33,9 @@ def main():
     song.append([(word, word_score(word)) for word in line.split()])
   
   print "Total score:", sum(i[1] for line in song for i in line)
-  print "Score per word: {:.3f}".format(sum(i[1] for line in song for i in line)/float(sum(len(line) for line in song)))
-  print "Highest scoring line: {} ({})".format(*max(((line_text(line), sum(word[1] for word in line)) for line in song), key=lambda x:x[1]))
-  print "Highest scoring word: {} ({})".format(*max(((word, score) for line in song for word, score in line), key=lambda x:x[1]))
+  print "Score per word: {0:.3f}".format(sum(i[1] for line in song for i in line)/float(sum(len(line) for line in song)))
+  print "Highest scoring line: {0} ({1})".format(*max(((line_text(line), sum(word[1] for word in line)) for line in song), key=lambda x:x[1]))
+  print "Highest scoring word: {0} ({1})".format(*max(((word, score) for line in song for word, score in line), key=lambda x:x[1]))
 
 if __name__ == '__main__':
   main()
