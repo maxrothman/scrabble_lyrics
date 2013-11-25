@@ -5,7 +5,7 @@ Calculates Scrabble scores for songs
 
 ####Download:
 
-Click on "scrabble_lyrics.py", then right click on "raw" in the top right and select "Save Link As"
+Right-click on "scrabble_lyrics.py", then select "Save Link As".
 
 ####Usage: 
 
