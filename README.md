@@ -9,7 +9,7 @@ Click on "scrabble_lyrics.py", then right click on "raw" in the top right and se
 
 ####Usage: 
 
-Open a terminal. Drag "scrabble_lyrics.py" into the terminal, then drag your file in. Press "Enter" to run the script.
+Open a terminal. Type "python". Drag "scrabble_lyrics.py" into the terminal, then drag your file in. Press "Enter" to run the script.
 
 See "vidalia" for an example of a file. The file must be plain text. That's it!
 
