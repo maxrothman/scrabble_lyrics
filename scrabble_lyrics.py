@@ -22,7 +22,7 @@ def line_text(line):
 
 def main():
   try:
-    with open(sys.arg[1]) as f:
+    with open(sys.argv[1]) as f:
       song_txt = f.readlines()
   except IOError:
     print("Cannot open", sys.argv[1])
