@@ -4,7 +4,7 @@ Gets lyrics for songs via LyricsWiki API and calculates scrabble scores for them
 Requires Python 2.7+
 """
 __author__ = "Max Rothman"
-__email__ = "max.r.rothman@gmail.com"
+__email__ = "whereswalden90@gmail.com"
 __license__ = "GPL v2"
 __version__ = "1.1"
 
