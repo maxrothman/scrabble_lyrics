@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 """
-Gets lyrics for songs via LyricsWiki API and calculates scrabble scores for them.
+Calculates and analyzes scrabble scores for words in a file
 Requires Python 2.7+
 """
 __author__ = "Max Rothman"
